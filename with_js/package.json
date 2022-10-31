@@ -1,0 +1,14 @@
+{
+  "name": "mail_api",
+  "version": "2.0.3",
+  "description": "send emails during sign up",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
