@@ -1,6 +1,9 @@
-const express = require('express')
-const startServer = require('../lib/boot')
+const express = require("express");
+const cron = require("node-cron");
+const startServer = require("./lib/boot");
+const runCron = require("./lib/cron");
 
-const server = express()
+const server = express();
 
-startServer(server)
+runCron(cron);
+startServer(server);
