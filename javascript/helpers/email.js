@@ -24,3 +24,5 @@ const sendEmail = async () => {
     console.log(info.response);
   });
 };
+
+module.exports = {createTransporter, sendEmail}
