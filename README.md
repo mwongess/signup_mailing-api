@@ -4,4 +4,5 @@
 
 ## How To Use
 <!-- --Not Ready For Use!! -->
-<pre>git clone url</pre>
+1. <pre>https://github.com/4ouR04/sendIT.git</pre>
+2. <pre>cd directory</pre>
