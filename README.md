@@ -4,7 +4,7 @@
 
 ## How To Use
 <!-- --Not Ready For Use!! -->
-1. <pre>git clone https://github.com/4ouR04/sendIT.git</pre>
-2. <pre>cd to one of these directories </pre>
+ <pre>git clone https://github.com/4ouR04/sendIT.git</pre>
+ <pre>cd to one of these directories </pre>
 <pre>npm i </pre>
 <pre>npm start</pre>
