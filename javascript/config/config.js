@@ -2,7 +2,7 @@ const config = {
   host: 'localhost',
   user: 'root',
   password: 'Lethal',
-  database: 'mysql_crud'
+  database: 'users'
 }
 
 module.exports =config
