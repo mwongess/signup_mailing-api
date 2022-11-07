@@ -5,4 +5,4 @@ const config = {
   database: 'users'
 }
 
-module.exports =config
+module.exports = config
