@@ -1,8 +1,13 @@
 const PORT = 3300
 const startServer = (api) => {
-    api.listen(PORT, ()=>{
-        console.log(`App listening on port ${PORT}`);
-    })
+    try{
+        api.listen(PORT, ()=>{
+            console.log(`App listening on port ${PORT}`);
+        })
+    }catch(error){
+        console.log(error)
+    }
+   
 }
 
 module.exports = startServer
