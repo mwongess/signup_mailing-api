@@ -1,0 +1,1 @@
+CREATE TABLE users (id VARCHAR(200), name VARCHAR(200), email VARCHAR(200) UNIQUE, isWelcomed BIT)
