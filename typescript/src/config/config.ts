@@ -5,7 +5,7 @@ dotenv.config()
    user: process.env.DB_USER as string,
    password: process.env.DB_PWD as string,
    database: process.env.DB_NAME as string,
-   server: "SQL5103.site4now.net",
+   server: "localhost",
    pool: {
      max: 10,
      min: 5,
