@@ -1,5 +1,5 @@
 import mssql from "mssql";
-import { sqlConfig } from "../Config/config";
+import { sqlConfig } from "../config/config";
 export default class Connection {
   private pool: Promise<mssql.ConnectionPool>;
   constructor() {
